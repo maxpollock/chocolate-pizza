@@ -1,0 +1,36 @@
+header {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-items {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.logo-items img {
+  width: auto;
+  height: 100%;
+}
+
+.logo-text {
+  margin-left: .8rem;
+}
+
+h1, h4 {
+  margin: 0rem;
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.5rem;
+}
+h4 {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
